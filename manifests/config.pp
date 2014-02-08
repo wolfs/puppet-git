@@ -11,7 +11,7 @@ class git::config {
   $credentialhelper = "${boxen::config::repodir}/script/boxen-git-credential"
   $global_credentialhelper = "${boxen::config::home}/bin/boxen-git-credential"
 
-  $version = '1.8.4-boxen2'
+  $version = '1.8.5-boxen1'
 
   anchor { [
     $configdir,
